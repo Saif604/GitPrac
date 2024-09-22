@@ -51,6 +51,14 @@ This repository documents my journey of learning and mastering Git. Below is a s
   `git stash`  
   To apply stashed changes:  
   `git stash apply`
+  To watch all stash
+  `git stash list`
+  To apply and empty stash
+  `git stash pop`
+  To apply particular stash
+  `git stash apply@stash{stashId}`
+  To clear stash
+  `git stash clear`
 
 - **Check remote URLs**:  
   `git remote -v`
